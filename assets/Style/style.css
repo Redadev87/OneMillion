@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+@font-face {
+    font-family:roboto;
+    src: url(../Fonts/Roboto-Regular.ttf);
+}
+
+/* CSS GLOBAL */
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'roboto'
+}
+
+/* NAVBAR */
+.nav{
+    color: white;
+
+}
+
+.who{
+    margin-right: 20px;
+}
+
+.get{
+    margin-right: 100px;
+}
+
+/* HEADER */
+
+.h1header{
+    align-content: center;
+}
+
+header {
+    background-image: url('../images/hero-image\ \(2\).jpg');
+    height: 100vh;
+    background-size: 1;
+    background-position: center;
+    color: white;
+    align-items:center;
+    padding: 8rem 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.img1{
+    margin-top:100px;
+}
+
+header>p{
+    text-align:center;
+}
+
+/* BODY */
+
+.h2section1{
+    color:rgb(187, 45, 59);
+    
+}
+
+body{
+    text-align: center;
+   
+}
+
+.img2 {
+    margin-top:30px ;
+}
+
+
+.h2section2{
+    color:rgb(187, 45, 59);
+    margin-top:60px;
+    margin-bottom:20px;
+    
+}
+
+.getinvolved{
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 20px;
+}
+
+body h3{
+    color:rgb(187, 45, 59) ;
+}
+
+span{
+border-top:1px solid; 
+position:relative;
+width:1px;
+}
+
+footer{
+    background-color: rgb(187, 45, 59);
+    }
+
+.imgbottom {
+    margin-top:150px;
+    margin-right: 800px;
+}
+  
+.btn btn-light btn-sm border border-danger{
+    color: red;
+}
+
+
+
+/* ----------------RESPONSIVE PART------------- */ 
+
+/* DESKTOP SCREEN */
+
+@media screen and (max-width:798px) {
+    .container{
+        width: 100%;
+        
+        
+        }
+}
+
